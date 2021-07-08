@@ -94,7 +94,8 @@ async def start_command(client: Client, message: Message):
 
 @Bot.on_message(filters.command('start') & filters.private)
 async def not_joined(client: Client, message: Message):
-    text = "<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"
+    text = "<b>നിങ്ങൾ ആവിശ്യപ്പെട്ട സിനിമ ലഭിക്കുന്നതായി, നിങ്ങൾ ഞങ്ങളുടെ 'CinemaClub🎥' ചാനലിൽ ജോയിൻ ചെയ്യണം.
+  </b>"
     message_text = message.text
     try:
         command, argument = message_text.split()
