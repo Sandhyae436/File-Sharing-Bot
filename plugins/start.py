@@ -73,8 +73,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Channel", url='https://t.me/joinchat/tRrBCnvMsTwxMWQ9'),
-                    InlineKeyboardButton("Group", url='https://t.me/Troll_Cinemas_Group'),
+                    InlineKeyboardButton("𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url='https://t.me/joinchat/tRrBCnvMsTwxMWQ9'),
+                    InlineKeyboardButton("𝐆𝐫𝐨𝐮𝐩", url='https://t.me/Troll_Cinemas_Group'),
                 ]
             ]
         )
